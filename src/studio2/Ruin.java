@@ -60,7 +60,7 @@ public class Ruin {
 		double a = (1-winProb)/winProb;
 		if(winProb == .5)
 		{
-			trueRuinRate = 1 - (startAmountHold/limitWin);
+			trueRuinRate = 1 - (((startAmountHold/10.0)/(limitWin*10.0))*100.0);
 		}
 		else 
 		{
